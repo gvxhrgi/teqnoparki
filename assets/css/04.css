@@ -1,0 +1,12 @@
+p {
+    
+    text-shadow: 2px 2px 10px rgb(31, 68, 66);
+    font-family: "Rubik", sans-serif;
+    font-size: 400;
+    font-style: normal;
+    display: inline;
+}
+
+span {
+    display: block;
+}
