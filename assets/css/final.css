@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+:root {
+  font-family: "Inter", sans-serif;
+  font-weight: 300px;
+}
+
+a, button {
+  all: unset;
+}
+
+.header {
+  /* background-color: red; */
+  width: 100vw;
+  height: 70vh;
+  background-image: url("/assets/img/pexels-anne-sophie-parent-1111377-2105416.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.content-wrapper {
+  background-color: rgba(110, 110, 110, 0.257);
+  height: 100%;
+  width: 100%;
+}
+
+nav > img {
+  height: 80px;
+  width: 80px;
+}
+
+nav {
+  height: 10vh;
+  /* background-color: red; */
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+}
+
+li > a {
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+.title-wrapper h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.title-wrapper h1 {
+    font-size: 6.5rem;
+    font-weight: 500;
+}
+
+.title-wrapper p {
+    /* background-color: red; */
+    text-align: center;
+    width: 300px;
+}
+
+.title-wrapper button {
+    background-color: #FFD835;
+    color: rgb(67, 98, 67);
+    height: 50px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    /* .header {
+        width: ;
+    } */
+}

@@ -1,27 +1,27 @@
 .container {
-    border:10px solid black;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  border: 10px solid black;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
-    font-size: 6rem;
-    border-radius: 6px;
+  width: 150px;
+  height: 150px;
+  font-size: 6rem;
+  border-radius: 6px;
 }
 
 #one {
-    background-color: cadetblue;
+  background-color: cadetblue;
 }
 
 #two {
-    background-color: deeppink;
+  background-color: deeppink;
 }
 
 #three {
-    background-color: ;
+  background-color: ;
 }
